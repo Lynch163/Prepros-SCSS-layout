@@ -117,7 +117,7 @@ body {
 }
 
 .header {
-  background: url(/images/header-bg.jpg) no-repeat center;
+  background: url(../images/header-bg.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -253,15 +253,15 @@ body {
 
 
 .our-apartments__loft1 {
-  background: url(/images/rectangle1-3.jpg) no-repeat center;
+  background: url(../images/rectangle1-3.jpg) no-repeat center;
 }
 
 .our-apartments__loft2 {
-  background: url(/images/rectangle2-4.jpg) no-repeat center;
+  background: url(../images/rectangle2-4.jpg) no-repeat center;
 }
 
 .wanna-see {
-  background: url(/images/rectangle-bg.jpg) no-repeat center;
+  background: url(../images/rectangle-bg.jpg) no-repeat center;
   padding: 180px 0;
   display: -webkit-box;
   display: -ms-flexbox;
