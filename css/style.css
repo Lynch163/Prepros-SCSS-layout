@@ -1,0 +1,409 @@
+/* stick-no-bills-700 - latin */
+@font-face {
+  font-family: "Stick No Bills";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/stick-no-bills-v4-latin-700.woff2") format("woff2"), url("../fonts/stick-no-bills-v4-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* raleway-regular - latin_cyrillic */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/raleway-v22-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/raleway-v22-latin_cyrillic-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* raleway-700 - latin_cyrillic */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/raleway-v22-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/raleway-v22-latin_cyrillic-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* playfair-display-700 - latin_cyrillic */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/playfair-display-v25-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/playfair-display-v25-latin_cyrillic-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-300 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("../fonts/roboto-v29-latin_cyrillic-300.woff2") format("woff2"), url("../fonts/roboto-v29-latin_cyrillic-300.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.wanna-see__input-button {
+  background: #D4C17F;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 27px;
+  border: none;
+}
+
+.wanna-see__input-name {
+  background: #ffffff;
+  opacity: 0.2;
+  color: #BEBEBE;
+  line-height: 27px;
+  padding: 12px 90px 11px 90px;
+  border: none;
+}
+
+.wanna-see__input-phone {
+  background: #ffffff;
+  opacity: 0.2;
+  color: #BEBEBE;
+  line-height: 27px;
+  padding: 12px 80px 11px 80px;
+  border: none;
+}
+
+body {
+  max-width: 1920px;
+  height: auto;
+  color: #fff;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: #2D343C;
+}
+
+.title {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #D4C17F;
+}
+
+.header {
+  background: url(/images/header-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.header__menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.housevop-logo {
+  font-family: "Stick No Bills";
+  font-size: 36px;
+  line-height: 54px;
+  padding-right: 415px;
+}
+
+.live__copmlex {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.12em;
+}
+
+.header__link {
+  padding: 0 20px;
+  letter-spacing: 0.05em;
+}
+
+.header__title {
+  width: 556px;
+  margin: 0 auto;
+  padding-top: 300px;
+  font-size: 48px;
+  line-height: 64px;
+  padding-bottom: 100px;
+}
+
+.header__mouse-pic {
+  padding-bottom: 200px;
+}
+
+.header__adress_and_phone {
+  font-size: 18px;
+  line-height: 21px;
+  padding-right: 70px;
+  padding-bottom: 74px;
+}
+
+.header__geo {
+  padding: 0 50px;
+}
+
+.header__adress {
+  padding-left: 18px;
+}
+
+.header__phone {
+  padding-left: 15px;
+}
+
+.main {
+  background: #242B33 no-repeat center;
+  background-size: cover;
+}
+
+.our-benefits {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our-benefit {
+  padding: 0 35px;
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 120px;
+}
+.our-benefit img {
+  padding-bottom: 53px;
+}
+.our-benefit p {
+  max-width: 193px;
+}
+
+.our-apartments {
+  max-width: 1100px;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: start;
+}
+.our-apartments h2 {
+  text-align: left;
+  padding-bottom: 100px;
+}
+.our-apartments p {
+  padding: 248px 132px 50px 50px;
+}
+
+.our-apartments-cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 535px 30px 535px;
+  grid-template-columns: repeat(2, 535px);
+  -ms-grid-rows: 320px 30px 320px;
+  grid-template-rows: repeat(2, 320px);
+  grid-gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+
+
+.our-apartments__loft1 {
+  background: url(/images/rectangle1-3.jpg) no-repeat center;
+}
+
+.our-apartments__loft2 {
+  background: url(/images/rectangle2-4.jpg) no-repeat center;
+}
+
+.wanna-see {
+  background: url(/images/rectangle-bg.jpg) no-repeat center;
+  padding: 180px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wanna-see__desc {
+  padding-right: 35px;
+}
+.wanna-see__desc h2 {
+  text-align: left;
+  padding-bottom: 50px;
+}
+.wanna-see__desc p {
+  max-width: 535px;
+  text-align: left;
+  line-height: 24px;
+}
+
+.wanna-see__input {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 255px 30px 255px;
+  grid-template-columns: repeat(2, 255px);
+  -ms-grid-rows: 50px 35px 50px;
+  grid-template-rows: repeat(2, 50px);
+  grid-column-gap: 30px;
+  grid-row-gap: 35px;
+}
+
+
+.wanna-see__input p {
+  font-size: 13px;
+  line-height: 16px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.video {
+  margin-bottom: 180px;
+}
+
+.area-on-the-map {
+  max-width: 1110px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.area-on-the-map__title {
+  text-align: left;
+  padding-bottom: 100px;
+}
+
+.area-on-the-map-map {
+  margin-bottom: 180px;
+}
+
+.have-questions {
+  max-width: 1115px;
+  margin: 0 auto;
+  padding-bottom: 180px;
+}
+.have-questions h2 {
+  text-align: left;
+  padding-bottom: 50px;
+}
+.have-questions p {
+  padding-right: 5px;
+  font-size: 13px;
+  line-height: 16px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.have-questions__input-button {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 255px 30px 255px 30px 255px 30px 255px;
+  grid-template-columns: repeat(4, 255px);
+  grid-column-gap: 30px;
+}
+
+.footer {
+  max-width: 1110px;
+  margin: 0 auto;
+  background: #2D343C no-repeat center;
+  background-size: cover;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 166px 1fr 166px 1fr 166px 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 166px;
+  padding: 60px 0 51px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.footer li {
+  padding: 7.5px 0;
+}
+
+.footer__logo {
+  padding: 0;
+}
+
+.footer-1, .footer-2 {
+  width: 119px;
+}
+
+.footer-3 {
+  width: 239px;
+}
+.footer-3 span {
+  font-weight: 700;
+  color: #D4C17F;
+}
+
+.youtube {
+  padding-right: 20px;
+}
+
+.vk {
+  padding-right: 25px;
+}
+
+.facebook {
+  padding-right: 25px;
+}
+
+.instagram {
+  padding-right: 24px;
+}
